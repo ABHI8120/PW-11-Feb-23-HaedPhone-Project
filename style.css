@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #0f0f10;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 15vw;
+
+}
+
+/* ==== Nav ==== */
+
+/* logos */
+.beatslogo {
+  width: 26px;
+
+}
+
+
+/* *ul* */
+.nav-ul.flex {
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+
+/* --nav-bar-- */
+nav {
+
+  margin: 35px auto;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Nav_Button */
+.nav-button {
+  width: 120px;
+  height: 40px;
+  background-color: #1E1E21;
+  border: 1.2px solid #ffffff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* main box */
+.main-box {
+  margin: 0 75px;
+  position: relative;
+  margin-top: 50px;
+
+}
+
+/* main left img */
+.mainimg {
+  width: 230px;
+  position: relative;
+  top: -200px;
+}
+
+
+/* Right box */
+.main-box-right {
+  padding: 20px 85px;
+}
+
+/* right box img & text */
+.onearimg {
+  width: 320px;
+  margin-left: 35px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 46px;
+  margin-bottom: 25px;
+}
+
+.main-box-right h4 {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.textinp {
+  width: 65%;
+  font-size: 12px;
+  font-weight: 300;
+  color: #bdc0c2;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+/* ======= End ========= */
+
+/*======= Button in main box======= */
+.buttons-view {
+  width: 230px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #1e1e21;
+}
+
+/* Buttont in section */
+.shoppingBag {
+  width: 15px;
+  height: 17px;
+}
+
+/* .buttons-view p */
+.add {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 15px;
+  padding-left: 0px;
+}
+
+/* ===== End div Button =========== */
+/* ===== End Right box in main =========== */
+
+/* -- Social media icons - -- */
+.social-media-section.flex {
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* <!-- Specs in content box --> */
+.mg {
+
+  margin-bottom: 20px;
+}
+
+.specslogo {
+
+  scale: 0.8;
+  margin-bottom: 30px;
+  margin-left: 40%;
+  margin-top: 80px;
+
+}
+
+.main-specs {
+  justify-content: center;
+  gap: 11%;
+
+}
+
+.main-specs p {
+  font-size: 12px;
+}
+
+.main-specs p:last-child {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.specsimg {
+  scale: 0.8;
+}
+
+.lafti {
+  position: relative;
+  left: 65px;
+}
+
+/* <!-- End of Specs in content box --> */
+
+/* <!-- Case Section -->  */
+.caselogo {
+  margin-top: 80px;
+  margin-left: 40%;
+  scale: 0.9;
+}
+
+.casebox {
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.casetext-box {
+  margin: 40px;
+}
+
+.caseimg {
+  scale: 0.8;
+}
+
+.pcase {
+  width: 300px;
+  margin-top: 100px;
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+/*  case button */
+.casebutton {
+  width: 185px;
+  border-radius: 10px;
+  height: 35px;
+  font-size: smaller;
+  border-radius: 8px;
+}
+
+
+/* <!-- Buy Prodect --> */
+.buy-prodect {
+  justify-content: center;
+  align-items: center;
+  background-color: #181A1B;
+  border-radius: 15px;
+  padding: 3.7%;
+  margin: 30px;
+}
+
+.buy-prodect h4 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 19px;
+
+}
+
+.buy-prodect .pbuy {
+  width: 300px;
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+/* Button in buy-prodect-button  */
+.buy-prodect-button.buttons-view.flex {
+  width: fit-content;
+  padding: 8px 20px;
+  font-size: 13px;
+  gap: 12px;
+  background-color: #000;
+}
+
+/* <!-- Prodect Cards -->  */
+
+.prodect-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  width: 130px;
+  background-color: #181A1B;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.card-icon {
+  background-color: #000;
+
+  border-radius: 5px;
+  padding: 2px 5px 0px 5px;
+}
+
+.black {
+  width: 75px;
+  height: 100px;
+  position: relative;
+  left: 27px;
+  top: -40px;
+}
+
+.card-p,
+.card-pn299k {
+  font-size: 12px;
+}
+
+.card-text-box.flex.jc-ai {
+  position: relative;
+  top: -28px;
+}
+
+/* prodect in color */
+.prodect-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  width: 80%;
+  margin: 105px 0px 100px 150px;
+
+}
+
+/* Footer */
+footer {
+  width: 115%;
+}
+
+.prodects-list {
+  align-items: flex-start;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+ul {
+  list-style: none;
+}
+
+.bold {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+li {
+  font-size: 12px;
+  color: #BDC0C2;
+}
+
+/* Footer button */
+.forms {
+
+  background-color: #181A1B;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+input {
+  width: 180px;
+  height: 35px;
+  border: none;
+  background-color: #181A1B;
+  color: #BDC0C2;
+}
+/* input:focus{
+  outline: none;
+} */
+
+.subscribe-button{
+  background-color: color #000;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+.sub-p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: normal;
+}

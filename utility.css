@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+
+
+
+.flex {
+    display: flex;
+}
+.jc-ai{
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+/* --- Tag Buttons --- */
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #1E1E21;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+.buttons-view {
+    /* width: 230px;
+    gap: 20px; */
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    /* border-radius: 15px; */
+    background-color: #1e1e21;
+  }
+
+
+/* ---- p font ---- */
+
+p:last-child{
+    font-weight: 300;
+    color: #bdc0c2;
+    /* color: #bdc0c2; */
+}
+
+/* icon scale  */
+.icon{
+    scale: 0.7;
+}
+.icon9{
+    scale: 0.9;
+}
+.icon8{
+    scale: 0.8;
+}
+
